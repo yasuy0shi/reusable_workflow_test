@@ -7,7 +7,7 @@ on:
 
 jobs:
   ci-reuse:
-    uses: ./.github/workflows/a.yaml
+    uses: ./.github/workflows/a.yml
 
   build:
     runs-on: ubuntu-latest
